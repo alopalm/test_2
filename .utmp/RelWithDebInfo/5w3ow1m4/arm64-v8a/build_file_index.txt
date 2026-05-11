@@ -1,0 +1,2 @@
+C:\Users\Vertexlit\Downloads\test2\test2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\Vertexlit\Downloads\test2\test2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

@@ -1,0 +1,38 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+# Unity builds
+Build/
+Builds/
+*.apk
+*.aab
+
+# Burst
+*BurstDebugInformation*
+
+# Logs
+Logs/
+
+# Temp
+Temp/
+
+# Library
+Library/
