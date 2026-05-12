@@ -35,12 +35,9 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -5806861541838894733}
-  - {fileID: 5533868534972850258}
   - {fileID: 3227343527974380480}
   - {fileID: -2020071053960914326}
   - {fileID: -172219332389845807}
-  - {fileID: -4590399873624407188}
   - {fileID: -6383628768455255098}
   - {fileID: 8144387832528279251}
   - {fileID: 1586286474732170021}
@@ -64,11 +61,6 @@ MonoBehaviour:
   m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
-  m_optimizeMultiviewRenderRegions: 0
-  m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 1
-  m_foveatedRenderingApi: 0
-  m_useOpenXRPredictedTime: 0
 --- !u!114 &-7627488681023116060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,7 +172,6 @@ MonoBehaviour:
   targetOpenXRApiVersion: 
   required: 0
   customRuntimeLoaderName: 
-  m_UseRightHandedNDC: 0
 --- !u!114 &-5372898464308916191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -701,8 +692,6 @@ MonoBehaviour:
   lateLatchingMode: 0
   lateLatchingDebug: 0
   optimizeMultiviewRenderRegions: 0
-  m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegions: 1
   spacewarpMotionVectorTextureFormat: 0
 --- !u!114 &1586286474732170021
 MonoBehaviour:
@@ -838,11 +827,6 @@ MonoBehaviour:
   m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
-  m_optimizeMultiviewRenderRegions: 0
-  m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
-  m_foveatedRenderingApi: 0
-  m_useOpenXRPredictedTime: 0
 --- !u!114 &4005496895052129801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1037,7 +1021,6 @@ MonoBehaviour:
   - {fileID: 7138748605061896914}
   - {fileID: 1371045492462331680}
   - {fileID: 1032149644660527581}
-  - {fileID: 1129524892240666206}
   - {fileID: 3231074947513383698}
   - {fileID: -8708193964506928483}
   - {fileID: -5289879556440808744}
@@ -1063,8 +1046,3 @@ MonoBehaviour:
   m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
-  m_optimizeMultiviewRenderRegions: 0
-  m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 1
-  m_foveatedRenderingApi: 0
-  m_useOpenXRPredictedTime: 0
