@@ -37,11 +37,11 @@ public class NiryoUdpSender : MonoBehaviour
     NedPoseMessage msg = new NedPoseMessage
     {
         cmd = "move_pose",
-        x = 0.22f,
-        y = 0.0f,
-        z = 0.22f,
-        roll = -3.14f,
-        pitch = 0.0f,
+        x = 0.3f,
+        y = 0.1f,
+        z = 0.2f,
+        roll = 0.0f,
+        pitch = 0.5f,
         yaw = 0.0f
     };
 
