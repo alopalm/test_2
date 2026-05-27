@@ -818,17 +818,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sourceController: {fileID: 1070341156}
+  cameraHead: {fileID: 0}
   bodyCenter: {fileID: 1106499442}
   mirroredHandTarget: {fileID: 1154942217}
   mirrorX: 0
   mirrorY: 1
   mirrorZ: 0
   minX_Unity: -0.4
-  maxX_Unity: 0.4
   minY_Unity: -0.3
-  maxY_Unity: 0.4
   minZ_Unity: 0.25
-  maxZ_Unity: 0.75
 --- !u!4 &492543662
 Transform:
   m_ObjectHideFlags: 0
@@ -858,8 +856,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ipServidor: 192.168.1.102
   puerto: 5005
-  frecuenciaEnvio: 50
+  frecuenciaEnvio: 30
   targetPosicion: {fileID: 1154942217}
+  tipoMando: 5
+  minX_Robot: 0.12
+  maxX_Robot: 0.32
+  minY_Robot: -0.15
+  maxY_Robot: 0.15
+  minZ_Robot: 0.16
+  maxZ_Robot: 0.35
+  minX_Uni: -0.4
+  maxX_Uni: 0.4
+  minY_Uni: -0.3
+  maxY_Uni: 0.4
+  minZ_Uni: 0.25
+  maxZ_Uni: 0.8
 --- !u!1 &495593464
 GameObject:
   m_ObjectHideFlags: 0
