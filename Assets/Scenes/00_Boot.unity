@@ -336,6 +336,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 958319494}
+  - component: {fileID: 958319495}
   m_Layer: 0
   m_Name: BootLoader
   m_TagString: Untagged
@@ -358,6 +359,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1850312786}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &958319495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958319493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d321e8f845a537d4aa66355be509edca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: 01_TherapistSetup
+  minimumBootTime: 1
+  bootText: {fileID: 1718700747}
 --- !u!1 &1202538259
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,7 +432,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1202538262
 Canvas:
   m_ObjectHideFlags: 0
@@ -426,7 +442,7 @@ Canvas:
   m_GameObject: {fileID: 1202538259}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 2
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -449,7 +465,7 @@ RectTransform:
   m_GameObject: {fileID: 1202538259}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1718700746}
@@ -457,9 +473,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 550.5, y: 270}
+  m_SizeDelta: {x: 1101, y: 540}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1543458887
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,6 +485,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1543458888}
+  - component: {fileID: 1543458889}
   m_Layer: 0
   m_Name: SesionManager
   m_TagString: Untagged
@@ -491,6 +508,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1850312786}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1543458889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543458887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b6b792f97fb1cc41bb2bc62da256a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1718700745
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,6 +698,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2030112966}
+  - component: {fileID: 2030112967}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -691,6 +721,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1850312786}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2030112967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030112965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f92534a0d2a8e46b5f11cbe75eb500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pythonIP: 127.0.0.1
+  pythonPort: 5055
 --- !u!1 &2035699817
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,6 +744,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2035699818}
+  - component: {fileID: 2035699819}
   m_Layer: 0
   m_Name: AppManager
   m_TagString: Untagged
@@ -722,6 +767,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1850312786}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2035699819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035699817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee8dd492ccb3c1805a103440b4a37e03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
